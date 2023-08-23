@@ -1,0 +1,44 @@
+* {position:relative;}
+
+body {
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f60;
+  height:100vh;
+}
+.wrapper {
+  width:100px;
+  height:100px;
+}
+.btn {
+   display:flex;
+  color:black;
+  font-family:sans-serif;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  position:absolute;
+  width:100px;
+  height:100px;
+  background:lightblue;
+  border-radius:50%;
+}
+
+.circle {
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background: olivedrab;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+.circlesHolder {
+  left:50px;
+  top:50px;
+  position:absolute;
+}
