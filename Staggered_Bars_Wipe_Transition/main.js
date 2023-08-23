@@ -1,6 +1,6 @@
 let t = gsap.to(".bar", 
   {xPercent:-100,  
-   duration:0.8, 
+   duration:1, 
    ease:"power1.inOut",
     stagger:{
       each:0.08,
